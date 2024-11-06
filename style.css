@@ -67,9 +67,27 @@ body {
     color: white;
     cursor: pointer;     
 }
-.signup-body p input[type="submit"]:hover{
-    background-color: #2773a5;
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
+
+button:disabled,
+button:active,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
 
 .signup-footer {
     color: #555;
