@@ -48,11 +48,12 @@ body {
 
 .signup-body {
     margin: 20px 0px;
+    text-align: center;
 }
 
 .signup-body p {
     margin: 10px 0px;
-    text-align: center;
+
 }
 
 .signup-body label {
